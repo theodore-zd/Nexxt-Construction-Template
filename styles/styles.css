@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.headerFont{
+  font-family: 'Spartan', 'ui-sans-serif', 'system-ui'
+}
+html {
+  font-family: 'Open Sans', 'ui-sans-serif', 'system-ui';
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.theme-dark{
+  --main-bg:  255, 255, 255;
+  --accent-bg: 250, 235, 215;
+  --accent: 232, 142, 66;
+  --text-main: 35, 35, 35;
+  --text-accent: 178, 179, 179;
+  --text-alt: 255, 255, 255;
+  --red: 247, 74, 74;
+
+  /* --white: 255, 255, 255;
+  --grey: 156, 163, 175;
+  --dark-grey: 98, 101, 105;
+  --light-grey: 212, 214, 217;
+  --very-light-grey: 230, 233, 237;
+  --black: 34, 34, 34 ; 
+  --midnight: 65, 65, 65;
+  --red: 247, 74, 74;
+  --red-dark: 207, 72, 72;
+  --green: 73, 191, 71;
+  --orange: 230, 110, 50;
+  --blue: 55, 100, 191;
+
+  --prime-dark: 210, 128, 69;;
+  --prime: 232, 142, 66;
+  --prime-light: 244, 169, 105;
+  
+  --prime-bg: 255, 245, 229; */
+}
