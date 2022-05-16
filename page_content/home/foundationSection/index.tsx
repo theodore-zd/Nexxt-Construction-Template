@@ -28,7 +28,7 @@ const HomeProjectsSection = ({ dark }:{dark?:boolean}) => {
                 <Image
                   className='mt-8 scale-90 sm:scale-100 md:-ml-20 lg:ml-0 mb-14 md:mb-0'
                   alt='foundation being built by Nexxt Construction'
-                  src='https://images.unsplash.com/photo-1593313637552-29c2c0dacd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'
+                  src='/images/foundation.jpg'
                   height={500}
                   width={400}
                 />

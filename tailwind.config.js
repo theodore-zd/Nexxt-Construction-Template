@@ -39,27 +39,6 @@ module.exports = {
           'text-accent': withOpacity('--text-accent'),
           'text-alt': withOpacity('--text-alt')
 
-          // white: withOpacity('--white'),
-
-          // bg: withOpacity('--bg'),
-          // grey: withOpacity('--grey'),
-          // 'dark-grey': withOpacity('--dark-grey'),
-          // 'light-grey': withOpacity('--light-grey'),
-          // 'very-light-grey': withOpacity('--very-light-grey'),
-          // midnight: withOpacity('--midnight'),
-          // dark: withOpacity('--dark'),
-          // black: withOpacity('--black'),
-
-          // red: withOpacity('--red'),
-          // 'red-dark': withOpacity('--red-dark'),
-          // green: withOpacity('--green'),
-          // orange: withOpacity('--orange'),
-          // blue: withOpacity('--blue'),
-
-          // prime: withOpacity('--accent'),
-          // 'prime-light': withOpacity('--accent-light'),
-          // 'prime-dark': withOpacity('--accent-dark'),
-          // 'accent-bg': withOpacity('--accent-bg')
         }
       }
     }

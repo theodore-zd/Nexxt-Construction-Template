@@ -34,7 +34,7 @@ const HomeLandingSection = () => {
             width={screenWidth > 1000 ? 1800 : (1800 / 1.9)}
             height={screenWidth > 1000 ? 1800 : (1800 / 1.9)}
             layout="responsive"
-            src='https://images.unsplash.com/photo-1575971637203-d6255d9947a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80'
+            src='/images/landing.jpg'
             alt='landing_image_retail_street_construction_mockup'
           />
       </div>
