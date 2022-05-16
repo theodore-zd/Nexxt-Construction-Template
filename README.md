@@ -3,8 +3,6 @@
 ### [DEMO SITE LINK](https://next-construction.netlify.app)
 
 ![](https://next-construction.netlify.app/github-image.jpg)
-#
-#
 ![](https://pagespeed-insights.herokuapp.com/?url=https://next-construction.netlify.app/&categories=performance,accessibility,best-practices,seo)
 
 ## 🎉  Features  🎉
