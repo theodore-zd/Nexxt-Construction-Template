@@ -121,7 +121,6 @@ export const ContactForm = ({ state, setState, success, setSuccess, animations, 
       variants={fadeIn({ delay: 1.5, direction: 'y' })}
     >
       <Button
-        invert={'true'}
         center
         onClick={(e:any) => {
           e.preventDefault()

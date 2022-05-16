@@ -2,7 +2,7 @@ export const Footer = () => {
   return <footer className="py-4 h-32">
     <div className="container mx-auto lg:flex py-12 px-10">
         <div>
-          <p className='text-6xl font-bold text-theme-text-accent'>FOOTER</p>
+          <p className='text-6xl font-bold text-theme-accent'>FOOTER</p>
         </div>
         <div className='ml-auto mt-1 pl-3'>
           <p className='font-bold'>Template by Theodore Zurek-Dunne</p>

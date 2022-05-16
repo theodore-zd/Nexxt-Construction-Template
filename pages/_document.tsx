@@ -4,6 +4,11 @@ export default function Document () {
   return (
     <Html lang="en">
       <Head />
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -34,11 +39,6 @@ export default function Document () {
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Spartan:wght@400;700&display=swap"
         rel="stylesheet"
       />
-
-      <body>
-        <Main />
-        <NextScript />
-      </body>
     </Html>
   )
 }

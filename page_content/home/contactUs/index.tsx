@@ -18,17 +18,17 @@ const HomeContactUs = () => {
   const formRef = null
 
   return (
-  <section className='relative py-52 pb-0 bg-theme-accent'>
+  <section className='relative py-52 pb-0 bg-theme-accent-bg'>
     <div className='grid md:grid-cols-2 max-w-[1300px] mx-auto px-5'>
       <div id='contact' className='pb-10 md:pb-0 w-[30rem] mx-auto'>
-        <p className='font-semibold pt-20 text-white uppercase text-3xl sm:text-4xl lg:text-5xl z-1'>Let&#39;s Talk</p>
+        <p className='font-semibold pt-20 text-theme-text-main/90 uppercase text-3xl sm:text-4xl lg:text-5xl z-1'>Let&#39;s Talk</p>
         <div className='pt-14'>
-          <p className='font-semibold text-2xl text-white'>General Inquiries</p>
+          <p className='font-semibold text-2xl text-theme-text-main/90'>General Inquiries</p>
           <p className='pt-2 text-theme-text-main underline hover:text-theme-text-main'><a href="mailto:info@nexxtconstruction.com">info@nexxtconstruction.com</a></p>
         </div>
         <div className='pt-14'>
-          <p className='font-semibold text-white text-sm pb-2'>President</p>
-          <p className='font-semibold text-3xl text-white'>Jane Doe</p>
+          <p className='font-semibold text-theme-text-main/90 text-sm pb-2'>President</p>
+          <p className='font-semibold text-3xl text-theme-text-main/90'>Jane Doe</p>
           <p className='pt-2 w-fit text-theme-text-main underline hover:text-theme-text-main'><a href="mailto:phillip.marsland@nexxtconstruction.com">jane.doe@nexxtconstruction.com</a></p>
           <p className='pt-2 w-fit text-theme-text-main underline hover:text-theme-text-main'><a href='tel:1233456789'>123-345-6789</a></p>
         </div>

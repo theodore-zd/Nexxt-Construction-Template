@@ -18,7 +18,7 @@ const HomeLandingSection = () => {
     )
   }>
     <div
-      className='grid grid-rows-2 lg:grid-cols-10 h-full bg-theme-accent'
+      className='grid grid-rows-2 lg:grid-cols-10 h-full bg-theme-accent-dark'
     >
       <div
         className='col-span-3'

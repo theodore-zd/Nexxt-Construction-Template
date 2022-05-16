@@ -13,7 +13,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
     setPathname(window.location.pathname)
   }, [])
 
-  return <motion.div
+  return <motion.li
       className='relative'
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
@@ -58,7 +58,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
       />
     </motion.div>
 
-    <li className={
+    <div className={
         'relative ' +
         (
           collapse
@@ -78,9 +78,9 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
         </Link>
       </div>
 
-    </li>
+    </div>
 
-  </motion.div>
+  </motion.li>
 }
 
 export { MenuItem }

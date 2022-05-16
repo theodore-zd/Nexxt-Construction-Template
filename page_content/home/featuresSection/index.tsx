@@ -29,12 +29,12 @@ const HomeFeaturesSection = () => {
   }, [titleView, features1RefView, features2RefView, features3RefView])
 
   return <section
-    className='relative pb-[44rem] grid pt-44 content-center justify-center z-10 bg-theme-accent'
+    className='relative pb-[44rem] grid pt-44 content-center justify-center z-10 bg-theme-accent-dark'
   >
     <div
       className='w-[32rem] text-center'
     >
-      <p className='font-bold uppercase text-xs md:text-ms text-theme-text-alt'>
+      <p className='font-semibold text-sm md:text-md text-theme-text-alt'>
         <span className='relative block h-fit overflow-hidden'>
             <span className='relative block h-9  overflow-hidden'>
               <motion.span
@@ -102,7 +102,7 @@ const HomeFeaturesSection = () => {
               animate={animations.featuresRow1 ? 'visible' : 'hidden'}
               variants={fadeIn({ direction: 'y', delay: 1.3 })}
             >
-              <h4 className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Pre-construction Phase</h4>
+              <p className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Pre-construction Phase</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -130,7 +130,7 @@ const HomeFeaturesSection = () => {
               animate={animations.featuresRow1 ? 'visible' : 'hidden'}
               variants={fadeIn({ direction: 'y', delay: 1.9 })}
             >
-              <h4 className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Construction Phase</h4>
+              <p className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Construction Phase</p>
             </motion.div>
             <motion.div
               initial="hidden"
@@ -158,7 +158,7 @@ const HomeFeaturesSection = () => {
               animate={animations.featuresRow1 ? 'visible' : 'hidden'}
               variants={fadeIn({ direction: 'y', delay: 2.7 })}
             >
-              <h4 className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Post-Construction Phase</h4>
+              <p className='pt-6 md:pt-10 pb-4 font-semibold text-theme-text-main'>Post-Construction Phase</p>
             </motion.div>
             <motion.div
               initial="hidden"

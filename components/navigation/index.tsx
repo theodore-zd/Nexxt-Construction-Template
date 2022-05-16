@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { navCollapse, navIgationFadeIn } from '../../lib/animation/navIgationFadeIn'
 import { MenuItem } from '../navigation/menuItem'
-import { Image } from '../../components/image'
 
 const menuItems = [
   { label: 'Services', link: '/#services' },
@@ -24,8 +23,8 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
             className='flex z-50 flex-row ml-5 md:ml-8 lg:ml-12 '
           >
             <div className='h-12 w-12 mt-2 '>
-              <Image
-                height={42}
+              <img
+                height={70}
                 width={70}
                 src='/svg/construction-phase.svg'
                 alt="logo"
