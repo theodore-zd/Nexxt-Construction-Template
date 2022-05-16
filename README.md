@@ -1,6 +1,6 @@
 # Nexxt Construction Template
 
-### [DEMO SITE](https://www.google.com)
+### [DEMO SITE LINK](https://www.google.com)
 
 ![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
 
