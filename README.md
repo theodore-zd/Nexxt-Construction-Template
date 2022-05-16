@@ -1,8 +1,8 @@
 # Nexxt Construction Template
 
-### [DEMO SITE LINK](https://www.google.com)
+### [DEMO SITE LINK](https://next-construction.netlify.app)
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)
+![](https://next-construction.netlify.app/github-image.jpg)
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
