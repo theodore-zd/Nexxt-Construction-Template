@@ -24,6 +24,7 @@ const HomeServicesSection = () => {
   }, [titleView, service1View, service2View])
 
   return <section
+        id='services'
         className='relative py-52 pb-60'
       >
         <div
@@ -32,7 +33,7 @@ const HomeServicesSection = () => {
           <FancyTitle text='Our Services' />
           <div className='grid mt-32 md:grid-cols-2 gap-28 md:gap-12'>
 
-            <div ref={service1Ref} id='services'>
+            <div ref={service1Ref} >
               <motion.p
                 className='uppercase text-theme-accent font-bold text-4xl leading-[1.4]'
                 initial="hidden"
