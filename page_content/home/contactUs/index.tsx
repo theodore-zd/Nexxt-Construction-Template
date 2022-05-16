@@ -20,7 +20,7 @@ const HomeContactUs = () => {
   return (
   <section className='relative py-52 pb-0 bg-theme-accent'>
     <div className='grid md:grid-cols-2 max-w-[1300px] mx-auto px-5'>
-      <div id='id' className='pb-10 md:pb-0 w-[30rem] mx-auto'>
+      <div id='contact' className='pb-10 md:pb-0 w-[30rem] mx-auto'>
         <p className='font-semibold pt-20 text-white uppercase text-3xl sm:text-4xl lg:text-5xl z-1'>Let&#39;s Talk</p>
         <div className='pt-14'>
           <p className='font-semibold text-2xl text-white'>General Inquiries</p>

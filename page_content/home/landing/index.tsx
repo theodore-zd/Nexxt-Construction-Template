@@ -102,7 +102,7 @@ const HomeLandingSection = () => {
               variants={fadeIn({ delay: 1.6, direction: 'y' })}
             >
               <Button
-                onClick={() => router.push('#id')}
+                onClick={() => router.push('#contact')}
               >
                 Contact Us
               </Button>

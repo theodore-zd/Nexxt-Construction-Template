@@ -106,14 +106,15 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
         </nav>
       </div>
     </motion.div>
-    <div
+    <a
       className='lg:block h-8 my-auto mx-2 px-4 font-medium leading-loose rounded bg-theme-accent text-white hover:bg-theme-accent-dark'
+      href='#contact'
       style={{
         display: (collapse ? 'block' : 'none')
       }}
     >
       <p className='m-0 whitespace-nowrap'>Contact Us</p>
-    </div>
+    </a>
 
   </div>
 }
