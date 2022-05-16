@@ -31,8 +31,8 @@ const HomeLandingSection = () => {
        >
           <Image
             className='-mt-[34rem] lg:mt-0'
-            width={screenWidth > 1000 ? 1800 : (1800 / 1.9)}
-            height={screenWidth > 1000 ? 1800 : (1800 / 1.9)}
+            width={1800}
+            height={1800}
             layout="responsive"
             src='/images/landing.jpg'
             alt='landing_image_retail_street_construction_mockup'

@@ -107,7 +107,7 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
       </div>
     </motion.div>
     <a
-      className='lg:block h-8 my-auto mx-2 px-4 font-medium leading-loose rounded bg-theme-accent text-white hover:bg-theme-accent-dark'
+      className='lg:block h-8 my-auto mx-2 px-4 font-semibold leading-loose rounded bg-theme-accent text-theme-text-main hover:bg-theme-accent-dark'
       href='#contact'
       style={{
         display: (collapse ? 'block' : 'none')
