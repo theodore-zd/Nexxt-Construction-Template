@@ -5,7 +5,7 @@ export const Footer = () => {
           <p className='text-6xl font-bold text-theme-text-accent'>FOOTER</p>
         </div>
         <div className='ml-auto mt-1 pl-3'>
-          <h6 className='font-bold'>Template by Theodore Zurek-Dunne</h6>
+          <p className='font-bold'>Template by Theodore Zurek-Dunne</p>
           <a
             className="hover:text-theme-accent underline"
             href="https://github.com/TheSodaPopPanda/Nexxt-Construction-Template"

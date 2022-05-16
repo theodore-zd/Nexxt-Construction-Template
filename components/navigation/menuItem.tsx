@@ -35,7 +35,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
         visible: {
           width: collapse ? '3rem' : '20rem',
           height: collapse ? '0.25rem' : '6rem',
-          backgroundColor: 'rgb(var(--accent))'
+          backgroundColor: 'rgb(var(--accent-dark))'
         },
         hidden: {
           width: 0
@@ -63,7 +63,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
         'relative ' +
         (
           collapse
-            ? 'ml-8 font-medium tracking-wider hover:text-theme-accent'
+            ? 'ml-8 font-medium tracking-wider hover:text-theme-accent-dark'
             : 'h-20 w-[20rem] flex justify-center mt-10 md:mt-20 text-[3rem] md:text-[4rem] text-center '
         )
       }

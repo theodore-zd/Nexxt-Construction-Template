@@ -18,7 +18,7 @@ export const Button = (props:{children:any, center?:any, onClick:Function, outli
           ? ('bg-theme-grey text-white hover:tracking-wider hover:brightness-75 ')
           : invert
             ? ('bg-theme-main-bg text-theme-accent hover:tracking-wider hover:brightness-95 ')
-            : ('bg-theme-accent text-white hover:tracking-wider hover:bg-theme-accent-dark ')
+            : ('bg-theme-accent-dark text-white hover:tracking-wider hover:brightness-[0.99] ')
       ) +
       'block text-lg md:text-xl leading-[4px] md:leading-[8px] py-4 h-[3rem] md:h-[3.5rem] w-40 md:w-52 font-bold shadow-lg transition-all text-center rounded ' +
       (center ? 'mx-auto' : 'mr-4 sm:mr-8') +

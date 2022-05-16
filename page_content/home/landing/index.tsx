@@ -8,9 +8,6 @@ import { Image } from '../../../components/image'
 const HomeLandingSection = () => {
   const { Theme, screenWidth } = useStore(state => state)
   const router = useRouter()
-  // const { mouseY, mouseX } = useStore(state => state.mousePos)
-  // const scrollData = useStore(state => state.scrollData)
-  // const scale = 1.5
 
   return <section className={
     'relative min-h-[95vh] max-h-[132vh] lg:h-[100vh] w-full bg-theme-main-bg' +
@@ -52,16 +49,6 @@ const HomeLandingSection = () => {
         }
       >
 
-        {/* <motion.p
-          className='block xs:text-sm text-theme-accent font-medium transition-colors duration-300 leading-8 max-w-[38rem]'
-          initial="hidden"
-          animate="visible"
-          variants={textTopIn(0.6)}
-        >
-          <span>
-            A Full Service, Start-to-Finish, Turnkey Solution
-          </span>
-        </motion.p> */}
           <h1
             className='mt-6 md:mt-7 font-bold transition-colors duration-300 text-lg xs:text-xl sm:text-2xl md:text-4xl md:pb-6 headerFont tracking-wide '
           >
@@ -104,7 +91,7 @@ const HomeLandingSection = () => {
           variants={textTopIn(0.6)}
         >
           <span>
-            We are a full service turnkey company, providing Project and Construction Management services to Property Developers and Home Owners.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </span>
         </motion.p>
 
@@ -121,18 +108,6 @@ const HomeLandingSection = () => {
               </Button>
             </motion.div>
 
-            {/* <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={fadeIn({ delay: 2.2, direction: 'y' })}
-            >
-              <Button
-                outline={true}
-                grey={true}
-                onClick={() => router.push('/pricing')}
-
-              >Pricing</Button>
-            </motion.div> */}
           </div>
       </div>
     </div>
