@@ -6,7 +6,7 @@ import { textTopIn } from '../../../lib/animation/textTopIn'
 import { useStore } from '../../../lib/state'
 import { Image } from '../../../components/image'
 const HomeLandingSection = () => {
-  const { Theme, screenWidth } = useStore(state => state)
+  const { Theme } = useStore(state => state)
   const router = useRouter()
 
   return <section className={
