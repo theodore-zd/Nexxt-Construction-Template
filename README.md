@@ -4,7 +4,7 @@
 
 ![](https://next-construction.netlify.app/github-image.jpg)
 #
-![](https://pagespeed-insights.herokuapp.com/?url=https://next-construction.netlify.app/&categories=performance,accessibility,best-practices,seo)
+![](https://next-construction.netlify.app/lighthouse-score.svg)
 
 ## 🎉  Features  🎉
 - 🔥 Next.js for Static Site Generator
