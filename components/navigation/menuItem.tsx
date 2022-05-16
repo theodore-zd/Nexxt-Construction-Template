@@ -7,7 +7,6 @@ import { useStore } from '../../lib/state'
 const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, index: number, menuOpen:any, setMenuOpen:Function, collapse: boolean }) => {
   const [hover, setHover] = useState(false)
   const { mouseY, mouseX } = useStore(state => state.mousePos)
-  const Theme = useStore(state => state.Theme)
   const [pathname, setPathname] = useState<boolean|string>(false)
 
   useEffect(() => {
@@ -35,7 +34,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
         visible: {
           width: collapse ? '3rem' : '20rem',
           height: collapse ? '0.25rem' : '6rem',
-          backgroundColor: 'rgb(var(--accent-dark))'
+          backgroundColor: 'rgb(var(--accent))'
         },
         hidden: {
           width: 0
@@ -75,17 +74,7 @@ const MenuItem = ({ item, index, menuOpen, collapse, setMenuOpen }:{ item: any, 
         <Link
           href={'' + item.link}
         >
-          <a className={
-            ' ' +
-            (item.link === pathname
-              ? (
-                  Theme === 'light'
-                    ? 'text-theme-accent '
-                    : 'text-theme-accent '
-                )
-              : ' ')
-          }
-          >{item.label}</a>
+          <a>{item.label}</a>
         </Link>
       </div>
 

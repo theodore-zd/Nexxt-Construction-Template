@@ -13,7 +13,7 @@ const HomeFoundationSection = ({ dark }:{dark?:boolean}) => {
   }, [titleView])
 
   return <section
-          id='portfolio'
+          id='projects'
           className='relative py-52'
           ref={titleRef}
         >

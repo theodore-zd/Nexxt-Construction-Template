@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { navCollapse, navIgationFadeIn } from '../../lib/animation/navIgationFadeIn'
 import { MenuItem } from '../navigation/menuItem'
+import { Image } from '../../components/image'
 
 const menuItems = [
-  { label: 'Home', link: '/' },
-  { label: 'Portfolio', link: '/#portfolio' },
-  { label: 'Contact', link: '/#id' }
+  { label: 'Services', link: '/#services' },
+  { label: 'Projects', link: '/#projects' }
 ]
 
 const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
@@ -15,21 +15,21 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return <div className={
-      'w-full h-30 z-50 shadow-lg bg-theme-main-bg ' +
+      'w-full flex h-30 z-50 shadow-lg bg-theme-main-bg ' +
       (menuOpen ? 'fixed ' : 'block ')
     }>
     <div className={' h-[60px] w-full flex mt-[10px]'}>
         <Link href="/">
           <a
-            className='flex z-50 flex-row ml-6 md:ml-12 lg:ml-20 '
+            className='flex z-50 flex-row ml-5 md:ml-8 lg:ml-12 '
           >
             <div className='h-12 w-12 mt-2 '>
-              {/* <Image
+              <Image
                 height={42}
                 width={70}
-                src={ Theme === 'dark' ? '/logo_white.svg' : '/logo_black.svg' }
+                src='/svg/construction-phase.svg'
                 alt="logo"
-              /> */}
+              />
             </div>
             <p
               className={'font-bold text-2xl mt-3 ml-7 ' + (menuOpen ? 'text-theme-text-main ' : 'opacity-80 ')}
@@ -77,7 +77,7 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
     >
       <div className={
         collapse
-          ? 'absolute top-4  mt-2 right-8 md:right-10 lg:right-20 '
+          ? 'absolute top-4  mt-2 right-8 md:right-16 lg:right-[9rem] '
           : 'fixed top-0 w-full h-full bg-theme-main-bg '
       }>
         <nav className={
@@ -88,7 +88,7 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
           <ol className={
             collapse
               ? 'flex flex-row '
-              : 'text-center tracking-widest mt-20 font-black '
+              : 'text-center tracking-widest mt-20 font-bold '
           }>
             {
               menuItems.map((item, index) => {
@@ -106,6 +106,14 @@ const SiteNavigation = ({ collapse }:{collapse:boolean}) => {
         </nav>
       </div>
     </motion.div>
+    <div
+      className='lg:block h-8 my-auto mx-2 px-4 font-medium leading-loose rounded bg-theme-accent text-white hover:bg-theme-accent-dark'
+      style={{
+        display: (collapse ? 'block' : 'none')
+      }}
+    >
+      <p className='m-0 whitespace-nowrap'>Contact Us</p>
+    </div>
 
   </div>
 }

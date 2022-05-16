@@ -32,7 +32,7 @@ const HomeServicesSection = () => {
           <FancyTitle text='Our Services' />
           <div className='grid mt-32 md:grid-cols-2 gap-28 md:gap-12'>
 
-            <div ref={service1Ref}>
+            <div ref={service1Ref} id='services'>
               <motion.p
                 className='uppercase text-theme-accent font-bold text-4xl leading-[1.4]'
                 initial="hidden"
@@ -49,18 +49,6 @@ const HomeServicesSection = () => {
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </motion.p>
-              {/* <motion.div
-                className='mt-auto'
-                initial="hidden"
-                animate={animations.service1 ? 'visible' : 'hidden'}
-                variants={fadeIn({ display: 'block', displayAlways: true, direction: 'y', delay: 1.6 })}
-              >
-                <LinkButton
-                  className='mt-auto'
-                  text='Learn More'
-                  onClick={() => {}}
-                />
-              </motion.div> */}
             </div>
 
             <div ref={service2Ref}>
@@ -78,21 +66,8 @@ const HomeServicesSection = () => {
                 animate={animations.service2 ? 'visible' : 'hidden'}
                 variants={fadeIn({ display: 'block', displayAlways: true, direction: 'y', delay: 1.2 + (screenWidth > 780 ? 0.3 : 0) })}
               >
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </motion.p>
-              {/* <motion.div
-                className='mt-auto'
-                initial="hidden"
-                animate={animations.service2 ? 'visible' : 'hidden'}
-                variants={fadeIn({ display: 'block', displayAlways: true, direction: 'y', delay: 1.6 + (screenWidth > 780 ? 0.3 : 0) })}
-              >
-                <LinkButton
-                  className='mt-auto'
-                  text='Learn More'
-                  onClick={() => {}}
-                />
-              </motion.div> */}
             </div>
 
           </div>
