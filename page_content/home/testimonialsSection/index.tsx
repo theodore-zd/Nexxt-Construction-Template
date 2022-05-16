@@ -43,7 +43,7 @@ const HomeTestimonialsSection = ({ dark }:{dark?:boolean}) => {
                   className='rounded-full overflow-hidden'
                   width={70}
                   height={70}
-                  src='/testimonial1.jpg'
+                  src='/images/testimonial1.jpg'
                   alt='Lucas Delito testimonial portrait'
                 />
                 <svg
@@ -89,7 +89,7 @@ const HomeTestimonialsSection = ({ dark }:{dark?:boolean}) => {
                   className='rounded-full overflow-hidden'
                   width={70}
                   height={70}
-                  src='/testimonial2.jpg'
+                  src='/images/testimonial2.jpg'
                   alt='Jurica Kolet testimonial portrait'
                 />
                 <svg

@@ -93,7 +93,7 @@ const HomeFeaturesSection = () => {
               <Image
                 height={50}
                 width={50}
-                src='/construction-phase.svg'
+                src='/svg/construction-phase.svg'
                 alt='orange wrench icon'
               />
             </motion.div>
@@ -121,7 +121,7 @@ const HomeFeaturesSection = () => {
               <Image
                 height={50}
                 width={50}
-                src='/pre-construction-phase.svg'
+                src='/svg/pre-construction-phase.svg'
                 alt='orange wrench icon'
               />
             </motion.div>
@@ -149,7 +149,7 @@ const HomeFeaturesSection = () => {
               <Image
                 height={50}
                 width={50}
-                src='/post-construction-phase.svg'
+                src='/svg/post-construction-phase.svg'
                 alt='orange wrench icon'
               />
             </motion.div>
