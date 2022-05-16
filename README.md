@@ -3,10 +3,8 @@
 ### [DEMO SITE LINK](https://next-construction.netlify.app)
 
 ![](https://next-construction.netlify.app/github-image.jpg)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
+#
+![](https://next-construction.netlify.app/lighthouse-score.svg)
 
 ## 🎉  Features  🎉
 - 🔥 Next.js for Static Site Generator
