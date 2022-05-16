@@ -34,6 +34,7 @@ module.exports = {
           'accent-bg': withOpacity('--accent-bg'),
           // eslint-disable-next-line quote-props
           'accent': withOpacity('--accent'),
+          'accent-dark': withOpacity('--accent-dark'),
           'text-main': withOpacity('--text-main'),
           'text-accent': withOpacity('--text-accent'),
           'text-alt': withOpacity('--text-alt')
