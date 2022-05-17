@@ -5,6 +5,9 @@
 ![](//github-image.gif)
 #
 ![](/public/github-image.gif)
+<p align="center">
+    <img src="/public/github-image.gif" >
+<p>
 ## 🎉  Features  🎉
 - 🔥 Next.js for Static Site Generator
 - 🎨 Integrate with Tailwind CSS
