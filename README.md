@@ -5,7 +5,6 @@
 ![](//github-image.gif)
 #
 ![](/public/github-image.gif)
-https://next-construction.netlify.app/lighthouse-score.svg
 ## 🎉  Features  🎉
 - 🔥 Next.js for Static Site Generator
 - 🎨 Integrate with Tailwind CSS
