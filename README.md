@@ -4,7 +4,6 @@
 
 ![](//github-image.gif)
 #
-![](/public/github-image.gif)
 <p align="center">
     <img src="/public/github-image.gif" >
 <p>
