@@ -2,7 +2,7 @@
 
 ### [DEMO SITE LINK](https://next-construction.netlify.app)
 
-![](https://next-construction.netlify.app/github-image.jpg)
+![](https://next-construction.netlify.app/github-image.gif)
 #
 ![](https://next-construction.netlify.app/lighthouse-score.svg)
 
